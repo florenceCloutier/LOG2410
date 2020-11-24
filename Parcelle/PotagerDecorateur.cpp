@@ -14,6 +14,6 @@ void PotagerDecorateur::remonteeCapillaire() {
 }
 
 void PotagerDecorateur::simulerTranspiration() {
-    // À COMPLÉTER
-    // appeller la méthode remonteeCapillaire(), puis simulerTranspiration() de la classe parent AbsParcelleTerrain
+     remonteeCapillaire();
+    AbsTerrainDecorateur::simulerTranspiration();
 }

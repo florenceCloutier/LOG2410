@@ -15,6 +15,6 @@ void PelouseDecorateur::pousseeRadiculaire() {
 }
 
 void PelouseDecorateur::simulerTranspiration() {
-    // À COMPLÉTER
-    // appeller la méthode pousseeRadiculaire(), puis simulerTranspiration() de la classe parent AbsParcelleTerrain
+    pousseeRadiculaire();
+    AbsTerrainDecorateur::simulerTranspiration();
 }

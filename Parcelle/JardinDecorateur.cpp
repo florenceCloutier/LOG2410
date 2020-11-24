@@ -13,7 +13,7 @@ void JardinDecorateur::evapotranspirer() {
     this->m_parcelle->consommerEau(5);
 }
 void JardinDecorateur::simulerTranspiration() {
-    // À COMPLÉTER
-    // appeller la méthode evapotranspirer(), puis simulerTranspiration() de la classe parent AbsParcelleTerrain
+    evapotranspirer();
+    AbsTerrainDecorateur::simulerTranspiration();
 }
 
